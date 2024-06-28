@@ -35,7 +35,7 @@ This is a scalable and secure e-commerce backend built with Node.js. It includes
     ```bash
     npm start
     ```
-2. The server will run on `http://localhost:3000`.
+2. The server will run on `http://localhost:8000`.
 
 ## Docker
 1. Build the Docker image:
@@ -44,7 +44,7 @@ This is a scalable and secure e-commerce backend built with Node.js. It includes
     ```
 2. Run the Docker container:
     ```bash
-    docker run -p 3000:3000 e-commerce-backend
+    docker run -p 8000:8000 e-commerce-backend
     ```
 
 ## Contributing
